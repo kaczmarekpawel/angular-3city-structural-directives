@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {AuthService, Role} from '../Auth';
 
 @Component({
   selector: 'app-roles-checker-component',

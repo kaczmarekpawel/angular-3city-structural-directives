@@ -2,7 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {AuthService, HasRoleDirective} from './Auth';
+import {AuthService} from './Auth';
 import {RolesCheckerComponent} from './RolesChecker';
 import {
   ForSampleComponent,
@@ -22,7 +22,6 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     ForSampleComponent,
-    HasRoleDirective,
     IfSampleComponent,
     RolesCheckerComponent,
     PredefinedDirectivesComponent
