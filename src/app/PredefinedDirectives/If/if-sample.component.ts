@@ -6,5 +6,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./if-sample.component.css']
 })
 export class IfSampleComponent {
-  showJawa: boolean;
+  showJawa: boolean = false;
 }
