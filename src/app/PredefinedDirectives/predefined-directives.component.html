@@ -1,0 +1,7 @@
+<button (click)="changeType(types.If)">If</button>
+<button (click)="changeType(types.For)">For</button>
+
+<div [ngSwitch]="directive">
+  <app-if-sample *ngSwitchCase="types.If"></app-if-sample>
+  <app-for-sample *ngSwitchCase="types.For"></app-for-sample>
+</div>

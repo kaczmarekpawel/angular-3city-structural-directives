@@ -1,0 +1,6 @@
+export enum Role {
+  SPEAKER = 'SPEAKER',
+  TRAINER = 'TRAINER',
+  DEVELOPER = 'DEVELOPER',
+  JEDIMASTER = 'JEDIMASTER'
+}

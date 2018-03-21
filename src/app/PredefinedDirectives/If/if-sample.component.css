@@ -1,0 +1,16 @@
+.desert {
+  background-image: url("../../../assets/desert.PNG");
+  background-repeat: no-repeat;
+  width:640px;
+  height: 350px;
+  position: relative;
+}
+
+.jawa-code {
+  position: absolute;
+  bottom: 10px;
+}
+
+.desert h2 {
+  margin: 0 auto;
+}

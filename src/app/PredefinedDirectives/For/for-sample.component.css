@@ -1,0 +1,9 @@
+.trooper {
+  display: inline-block;
+  width: 170px;
+}
+
+.trooper * {
+  vertical-align: middle;
+  text-align: center;
+}
