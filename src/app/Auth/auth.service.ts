@@ -3,7 +3,12 @@ import {Role} from './auth.types';
 
 const user = {
   name: 'Pawel Kaczmarek',
-  roles: [Role.SPEAKER, Role.TRAINER, Role.DEVELOPER, Role.JEDIMASTER]
+  roles: [
+    Role.SPEAKER,
+    Role.TRAINER,
+    Role.DEVELOPER,
+    Role.JEDIMASTER
+  ]
 };
 
 @Injectable()
