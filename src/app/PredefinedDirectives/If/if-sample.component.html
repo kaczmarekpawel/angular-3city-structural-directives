@@ -3,8 +3,29 @@
 <button (click)="showJawa = !showJawa">{{showJawa ? 'hide' : 'show'}}</button>
 
 <div class="desert">
-  <div *ngIf="showJawa" class="hero">
+  <div *ngIf="showJawa; else droid1" class="hero">
     <h2>Hou-di-ni!</h2>
     <img src="../../../assets/jawa.png">
   </div>
+  <ng-template #droid1>
+    <div class="hero">
+      <h2>Hou-di-ni!</h2>
+      <img src="../../../assets/r2d2.PNG">
+    </div>
+  </ng-template>
+</div>
+
+<div class="desert">
+  <ng-template [ngIf]="showJawa" [ngIfElse]="droid2">
+    <div class="hero">
+      <h2>Hou-di-ni!</h2>
+      <img src="../../../assets/jawa.png">
+    </div>
+  </ng-template>
+  <ng-template #droid2>
+    <div class="hero">
+      <h2>Hou-di-ni!</h2>
+      <img src="../../../assets/r2d2.PNG">
+    </div>
+  </ng-template>
 </div>

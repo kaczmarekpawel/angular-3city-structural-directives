@@ -1,7 +1,13 @@
 <h1>Final Act</h1>
 
+<!--No `else` template defined-->
+<!--<div *appHasRole="'JEDIMASTER'">-->
+  <!--<img src="../../assets/real-master.gif"/>-->
+<!--</div>-->
+
+
 <div *appHasRole="'JEDIMASTER'; else noJediMaster">
-  <img src="../../assets/hello-there.gif"/>
+  <img src="../../assets/real-master.gif"/>
 </div>
 <ng-template #noJediMaster>
   <h2>You are no master!</h2>
