@@ -1,1 +1,9 @@
 <h1>Final Act</h1>
+
+<div *appHasRole="'JEDIMASTER'; else noJediMaster">
+  <img src="../../assets/hello-there.gif"/>
+</div>
+<ng-template #noJediMaster>
+  <h2>You are no master!</h2>
+  <img src="../../assets/no-jedi-master.PNG"/>
+</ng-template>
